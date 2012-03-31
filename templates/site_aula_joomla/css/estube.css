@@ -1,0 +1,313 @@
+body{
+	background: url("../img/tail.jpg") repeat-x #14A9D6;
+	font-family: Tahoma;
+    font-size: 12px;
+    line-height: 1.5em;
+}
+
+a{
+	color:blue;
+}
+
+.esquerda{
+	float:left;
+	width: 160px;
+	padding-right: 2px;
+}
+
+.direita{
+	float:left;
+	width: 200px;
+	padding-left: 2px;
+}
+
+.banner_300_2 .swf{
+	padding-left:2px;
+}
+
+.centro, .centro-2{
+	float:left;
+	width:620px;
+	padding:0 9px;
+}
+
+.direita .moduletable{
+	padding-bottom:10px
+}
+
+
+#topo{
+	padding-top: 28px;
+}
+
+#conteudo_total{
+	margin-top:28px;
+	background-color: #FFF;
+}
+
+#sistema_busca{
+	padding-top: 40px;
+}
+
+.search{
+background: url("../img/search.png") 0 0 no-repeat;
+height: 25px;
+padding: 2px 10px
+}
+
+.search input {
+	border: 0px;
+	width: 230px;
+}
+
+.search label{
+	display: none;
+}
+
+div.container_12, div.container_16{
+	width: 1005px;  
+}
+
+.border-top{
+	width: 1005px;
+	height: 6px;
+	float: left;
+}
+
+.top-border-left{
+	background: url("../img/top-header-left.jpg") no-repeat;
+	border: none;
+	height:6px;
+	width:6px;
+	float: left;
+	width: 162px;
+	
+}
+
+.border-center{
+	float: left;
+	width: 600px;
+}
+
+.top-border-right{
+	background: url("../img/top-header-right.jpg") no-repeat;
+	border: none;
+	height:6px;
+	width: 6px;
+	float: right;
+}
+
+.border-button{
+	width: 1005px;
+	height: 6px;
+	float: left;
+}
+
+.button-border-left{
+	background: url("../img/header-left.jpg") no-repeat;
+	border: none;
+	height:6px;
+	width:6px;
+	float: left;
+}
+
+.button-border-right{
+	background: url("../img/header-right.jpg") no-repeat;
+	border: none;
+	height:6px;
+	width: 6px;
+	float: right;
+}
+
+.esquerda h3{
+	height: 25px;
+	padding-left: 5px;
+	color: #0080A5;
+	font-weight: bold;
+	border-bottom: 2px solid black;
+	margin-bottom: 3px;
+}
+
+.esquerda ul{
+	padding-left: 5px;
+}
+
+.esquerda ul li{
+	border-bottom: solid 1px #CCC;
+	margin-bottom: 5px;
+	margin-left: 6px;
+	padding-bottom: 4px;
+}
+
+.esquerda ul li a{
+	text-decoration: none;
+}
+
+.esquerda .moduletable{
+	padding-bottom: 25px;
+}
+
+#footer{
+	margin-top: 20px;
+	padding: 20px 0;
+	background: url("../img/footer-bg.gif");
+	color: #FFF;
+}
+
+.items-row{
+	width: 624px;
+}
+
+.item{
+	margin: 5px 2px;
+	width: 200px;
+	float: left;
+	border: solid 1px #EEE;
+	overflow: auto;
+}
+.item .item-content{
+	height: 160px;
+	overflow: hidden;
+}
+
+.items-row .item a.comprar{
+	background-color: #1799E2;
+	width:100%;
+	padding: 5px 0;
+	text-decoration: none;
+	color:#FFF;
+	display:block;
+	text-align: center;
+	font-weight: bold;
+}
+
+.item-list{
+	margin: 5px;
+	width: 610px;
+	float: left;
+	border: solid 1px #CCC;
+	overflow: auto;
+}
+
+.item h2,.item-list h2{
+	height:35
+	px;
+	 padding: 0 0 0 5px;	 
+}
+
+.item h2 a, .item-list h2 a{
+	color: #F18B20;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.item p.readmore{
+	display:none;
+}
+
+.item p,.item-list p{
+	padding: 5px;
+}
+
+.item dl{
+	padding: 5px;	
+}
+.item-page{
+	margin-top: 10px;
+	margin-left: 5px;
+}
+
+
+.item-page h2{
+	padding-bottom: 20px;
+}
+
+.item-page h2 a{
+	color: #F18B20;
+    font-family: Arial;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#udjaCommentsWrapper{
+	margin-top: 25px;
+}
+
+#txtUdjaComment {
+	width: 225px;
+}
+
+.banner_300_2, .banner_300_1{
+	float: left;
+	padding-left: 0px;
+	width:300px;
+	margin:5px
+}
+
+#slideshow {
+    position:relative;
+    height:305px;
+    width:610px;
+    margin:0 auto;
+}
+
+#slideshow img {
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:8;
+    width:610px;
+}
+
+#slideshow img.active {
+    z-index:10;
+}
+
+#slideshow img.last-active {
+    z-index:9;
+}
+
+.estube_front{
+    width:100%;
+    height:30px;
+}
+
+.estube_front h2{
+    color: #F18B20;
+    font-family: Arial;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.estube_front .valor{
+  width:50%;
+  float:left;
+  height: 50px;
+}
+
+.estube_front .link{
+  width:50%;
+  float:left;
+}
+
+.estube_front .link a{
+  text-decoration: none;
+  margin-left: 5px;
+  font-size: 15px;
+  color:#C0C0C0;
+}
+
+.back-estube-curso{
+    color:red;
+    text-align:center;	
+    font-weight:bold;
+    margin-bottom:15px;
+    font-size:16px;
+    line-height:1.7em;
+}
+
+.back-estube-curso .back-estube-link div{
+    float:left;
+    width:50%;
+}

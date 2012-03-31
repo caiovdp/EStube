@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.5//DTD template 1.0//EN" "http://dev.joomla.org/xml/1.5/template-install.dtd">
+<install version="1.5" type="template">
+	<name>site_aula_joomla</name>
+	<creationDate>08/11/08</creationDate>
+	<author>Caio Prado</author>
+	<authorEmail>andre@estudiosite.com.br</authorEmail>
+	<authorUrl>http://www.estudiosite.com.br</authorUrl>
+	<copyright>GNU</copyright>
+	<license>Comercial</license>
+	<version>1-0-0</version>
+	<description>Esse Template usado no site da Aula Joomla.</description>
+	<files>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>params.ini</filename>
+		<filename>images/index.html</filename>
+		<filename>css/index.html</filename>
+		<filename>css/template.css</filename>
+	</files>
+	<positions>
+		<position>breadcrumb</position>
+		<position>left</position>
+		<position>right</position>
+		<position>top</position>
+		<position>user1</position>
+		<position>user2</position>
+		<position>user3</position>
+		<position>user4</position>
+		<position>user5</position>
+		<position>user6</position>
+		<position>user7</position>
+		<position>user8</position>
+		<position>user9</position>
+		<position>footer</position>
+		<position>debug</position>
+		<position>syndicate</position>
+	</positions>
+	<params>
+	</params>
+</install>

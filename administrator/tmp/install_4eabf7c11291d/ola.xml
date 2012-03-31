@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <extension type="component" version="1.7.0" method="upgrade">
+
+  <name>Ola!</name>
+
+  <!-- Os seguintes elementos são opcionais e sem restrição de formato -->
+  <creationDate>March 2011</creationDate>
+  <author>Caio Vinicius D. do Prado</author>
+  <authorEmail> caiovdp (a) gmail.com</authorEmail>
+  <authorUrl> http://www.eximios.com</authorUrl>
+  <copyright>Copyright © 2011 - Plinio Mabesi - All rights reserved</copyright>
+  <license>Here you put any informations about license</license>
+  <!-- O texto da versão fica registrado na tabela de componentes -->
+  <version>0.0.1</version>
+
+  <!-- A descrição é opcional e o padrão é o nome -->
+  <description>Descrição do componente Hello World...</description>
+
+  <update> <!-- Este trecho é executado em atualizações; Novo no Joomla! 1.6 -->
+    <schemas>
+      <schemapath type="mysql">sql/updates/mysql</schemapath>
+    </schemas>
+  </update>
+
+    <!-- Seção de Cópia de Arquivos Principais do Site -->
+    <!-- Perceba o atributo folder: Este atributo descreve a pasta de origem do
+            pacote a partir da qual os arquivos são copiados para instalação,
+            portanto os arquivos desta seção serão copiados da pasta /site/
+            do pacote-->
+    <files folder="site">
+        <filename>index.html</filename>
+        <filename>helloworld.php</filename>
+        <filename>controller.php</filename>
+        <folder>views</folder>
+    </files>
+ 
+    <administration>
+        <!-- Seção Menu de Administração -->
+        <menu>Hello World!</menu>
+        <!-- Seção de Cópia de Arquivos Principais de Administração -->
+        <!-- Perceba o atributo folder: Este atributo descreve a pasta de origem
+            do pacote a partir da qual os arquivos são copiados para instalação,
+            portanto os arquivos desta seção serão copiados da pasta /admin/
+            do pacote -->
+        <files folder="admin">
+            <!-- Admin Main File Copy Section -->
+            <filename>index.html</filename>
+            <filename>helloworld.php</filename>
+            <!-- SQL files section -->
+            <folder>sql</folder>
+        </files>
+    </administration>
+</extension>

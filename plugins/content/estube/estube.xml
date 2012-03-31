@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.7" type="plugin" group="content">
+  <name>Estube-PlugIn</name>
+  <author>Caio Prado</author>
+  <creationDate>March 2011</creationDate>
+  <authorEmail>caiovdp@gmail.com</authorEmail>
+  <authorUrl></authorUrl>
+  <copyright>Copyright</copyright>
+  <license>License, for example GNU/GPL</license>
+  <version>1.0.1</version>
+  <description>Adiciona novas informações aos artigos do joomla</description>
+  <files>
+    <filename plugin="estube">estube.php</filename>
+  </files>
+</install>

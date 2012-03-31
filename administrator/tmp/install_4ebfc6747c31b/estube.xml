@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.5//DTD plugin 1.0//EN" "http://www.joomla.org/xml/dtd/1.5/plugin-install.dtd">
+<source lang="xml">
+<install version="1.7" type="plugin" group="content">
+  <name>Estube-PlugIn</name>
+  <creationDate>March 2011</creationDate>
+  <author>Caio Prado</author>
+  <authorEmail>caiovdp@gmail.com</authorEmail>
+  <authorUrl></authorUrl>
+  <copyright>Copyright</copyright>
+  <license>License, for example GNU/GPL</license>
+  <version>0.0.1</version>
+  <description>Adiciona novas informações aos artigos do joomla</description>
+  <files>
+    <filename plugin="estube">estube.php</filename>
+  </files>
+ </install>
